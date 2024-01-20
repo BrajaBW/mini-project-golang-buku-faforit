@@ -5,5 +5,4 @@ type Buku struct {
 	JudulBuku string
 	Penulis string
 	Rating int
-
 }

@@ -1,4 +1,4 @@
-package bukucontroller
+package homecontroler
 
 import (
 	"net/http"
@@ -15,14 +15,3 @@ func Index(respon http.ResponseWriter, request *http.Request) {
 
 }
 
-func Add(respon http.ResponseWriter, request *http.Request) {
-
-}
-
-func Edit(respon http.ResponseWriter, request *http.Request) {
-
-}
-
-func Delete(respon http.ResponseWriter, request *http.Request) {
-
-}

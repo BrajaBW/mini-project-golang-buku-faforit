@@ -2,9 +2,9 @@ package config
 
 import (
 	"database/sql"
-	_ "github.com/lib/pq"
+	_"github.com/lib/pq"
 )
-
+var DB *sql.DB
 func DBConection() (*sql.DB,error){
 	dbDriver := "postgres"
 	dbUser := "postgres"
